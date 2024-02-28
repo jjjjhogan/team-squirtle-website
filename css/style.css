@@ -1,7 +1,17 @@
-/* STYLE /*
+/* STYLE */
+
+html{
+    font-family:Cambria;
+}
 
 
 /* HEADER */
+
+.bi.bi-bandaid{
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
 
 .form-control-dark {
     border-color: var(--bs-gray);
