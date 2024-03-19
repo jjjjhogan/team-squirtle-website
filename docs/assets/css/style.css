@@ -8,6 +8,27 @@ html{
 
 /* HEADER */
 
+.logo {
+  max-height: 75px;
+}
+
+.carousel-inner{
+  overflow: visible;
+}
+
+.carousel {
+  overflow: hidden; 
+}
+
+.carousel-inner{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.carousel-caption{  
+  top: 85%;
+}
+
 .bi.bi-bandaid{
     font-size: 2rem;
     margin-right: 1rem;
