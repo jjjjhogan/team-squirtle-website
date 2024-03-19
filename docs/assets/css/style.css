@@ -9,7 +9,7 @@ html{
 /* HEADER */
 
 .logo {
-  max-height: 75px;
+  max-height: 65px;
 }
 
 .carousel-inner{
@@ -21,8 +21,8 @@ html{
 }
 
 .carousel-inner{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
 }
 
 .carousel-caption{  
