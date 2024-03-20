@@ -1,155 +1,206 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>Team Squirtle Webpage</title>
-  <meta name="author" content="">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <title>Team Squirtle Webpage</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-  
-  <link href="docs/assets/css/style.css" rel="stylesheet">
-  
-  <link rel="stylesheet" href="./docs/assets/css/bootstrap.css">
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+    <link href="docs/assets/css/style.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./docs/assets/css/bootstrap.css">
+  </head>
 
-<body>
+  <body>
 
-  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">  
-      <img src="./docs/assets/images/Illustration.png" class="logo d-block">
-      <span class="fs-4">Team Squirtle SmartCart Project</span>
-    </a>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">  
+        <img src="./docs/assets/images/Illustration.png" class="logo d-block">
+        <span class="fs-4">Team Squirtle SmartCart Project</span>
+      </a>
 
-    <ul class="nav nav-pills">
-      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-      <li class="nav-item"><a href="project.html" class="nav-link active" artia-current="page">Project</a></li>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="project.html" class="nav-link active" artia-current="page">Project</a></li>
+        <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="container px-4 py-5" id="icon-grid">
+          <h2 class="pb-2 border-bottom text-secondary-emphasis">Project Features</h2>
+      
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+            <div class="col d-flex align-items-start">
+              <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+              <div>
+                <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">AI Chat</h3>
+                <p class="text-secondary">Talk with our AI assistant about what parts of your nutritional health you need help on. Get personalized results and recommendations</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+              <div>
+                <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">Track Diet</h3>
+                <p class="text-secondary">Add textual entries or photos of your diet to keep track of your health progress</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+              <div>
+                <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">View Lists</h3>
+                <p class="text-secondary">See user or AI made shopping lists in one location. Along with meal ideas and nearby grocery stores</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+              <div>
+                <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">Achievements</h3>
+                <p class="text-secondary">Keep track of progress with daily rewards for using the app to keep you coming back</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2 border-top text-secondary-emphasis">Implementation Results</h2>
+          <h2 class="pb-2 border-bottom text-secondary-emphasis">First Round prototype wireframes</h2>
+      
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/Account Creation v1.png">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/Account Creation 1 v1.png">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/Home v1.png">
+              </div>
+            </div>
+          </div>
+      
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/aichat v1.png">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/tracking v1.png">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/achievement v1.png">
+              </div>
+            </div>
+          </div>
+          
+          <h2 class="pb-2 border-top border-bottom text-secondary-emphasis">Final round prototype wireframes</h2> 
+
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/Account Creation.png">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/Account Creation 1.png">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/Home.png">
+              </div>
+            </div>
+          </div>
+      
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/AI Chat.png">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/Tracking.png">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                <img class="d-block w-auto" src="/docs/assets/images/Achievements.png">
+              </div>
+            </div>
+          </div>
+
+          <p class="pb-2 text-secondary-emphasis">After we created our prototype, presented it to potential consumers 
+            and sent a survey where we asked people what they thought about our product and if it was something that they 
+            could see themselves using. We asked if there was anything confusing or difficult to understand about the app. 
+            Participants responded to our survey saying that our initial plus sign that was on the bottom menu bar of the app
+            was confusing because it had no information on its usage. In addition, users wanted to make sure that the meal ideas that the 
+            AI chatbot proposed and the shopping list that it created for users would align. For the page the contained the users’ shopping lists, we initially 
+            put “Nearby Grocery Stores” at the top of our page. However, users wanted to see the lists, as the page suggests, first. On 
+            top of just having Duolingo style achievements, users also wanted to track their progress and have it easy to see and understand.
+            Overall, the interviewees gave positive feedback that the app included most things that they were concerned about nutritional
+            health before and the UI was easily understood.
+            
+            <br>
+            <br>
+            We then performed A/B testing with our initial prototype and our final prototype to determine which one was more appealing to
+            consumers. In total we showed 6 people at this stage. We showed half of the consumers our initial prototype as a control to 
+            see how easily they were able to navigate the app. The other half of potential consumers were given our final prototype and
+            we also tested to see how they navigated the app. The final (B) version of our prototype performed better than our initial 
+            (A) version, with users finding how to use the AI chatbot much easier without the use of the plus sign and a more easily
+            understandable label on the menu bar. Users were able to also find their shopping lists and access them at a faster rate 
+            in the B version compared to the A version.
+          </p>
+          
+
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+
+  <footer id="contact" class="bg-dark bg-gradient py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+      <li class="nav-item"><a href="project.html" class="nav-link">Project</a></li>
       <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
       <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
     </ul>
-  </header>
-
-  <main>
-    <div class="container px-4 py-5" id="icon-grid">
-        <h2 class="pb-2 border-bottom text-secondary-emphasis">Project Features</h2>
-    
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
-            <div>
-              <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">Feature title</h3>
-              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
-            <div>
-              <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">Feature title</h3>
-              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
-            <div>
-              <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">Feature title</h3>
-              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
-            <div>
-              <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">Feature title</h3>
-              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
-            <div>
-              <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">Feature title</h3>
-              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
-            <div>
-              <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">Feature title</h3>
-              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-primary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
-            <div>
-              <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">Feature title</h3>
-              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
-            <div>
-              <h3 class="fw-bold text-primary-emphasis mb-0 fs-4">Feature title</h3>
-              <p class="text-secondary">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom text-secondary-emphasis">Implementation Results</h2>
-    
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-            <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Screenshot 1</h3>
-    
-                  </div>
-                </div>
-              </div>
-    
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Screenshot 2</h3>
-
-              </div>
-            </div>
-          </div>
-    
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Screenshot 3</h3>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </main>
-
-  <script src="js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
-
-    <footer id="contact" class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-        <li class="nav-item"><a href="project.html" class="nav-link">Project</a></li>
-        <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-        <p class="text-center text-secondary">© 2024 Squirtle Enterprises, Inc</p>
-        <p class="text-center text-body-secondary">jjhogan@uci.edu</p>
-        <p class="text-center text-body-secondary">changf4@uci.edu</p>
-        <p class="text-center text-body-secondary">jasminn9@uci.edu</p>
-        <p class="text-center text-body-secondary">rwcheng@uci.edu</p>
-    </footer>
+    <p class="text-center text-secondary">© 2024 Squirtle Enterprises, Inc</p>
+    <p class="text-center text-secondary">jjhogan@uci.edu</p>
+    <p class="text-center text-secondary">changf4@uci.edu</p>
+    <p class="text-center text-secondary">jasminn9@uci.edu</p>
+    <p class="text-center text-secondary">rwcheng@uci.edu</p>
+  </footer>
 
   <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
